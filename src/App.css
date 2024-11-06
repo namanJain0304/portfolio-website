@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+  height: 130px !important;
+  border-bottom: 5px solid #ffffff !important;
+}
+.navbar-icon {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #ffffff; /* Icon color */
+}
+
+.navbar-name {
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #7d8082; /* Accent color on hover */
+  font-size: 1.1rem
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+.navbar-nav .nav-link {
+  margin-right: 1rem; /* Adds space between nav links */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+.social-icon {
+  transition: transform 0.3s ease, font-weight 0.3s ease; /* Smooth transition */
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Increase size on hover */
+  font-weight: bold; /* Make the icon appear bolder (only works if the icon supports font weight) */
+}
+
+.custom-card {
+  border: 5px solid #343a40; /* Darker border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.custom-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Hover shadow effect */
+}
+
+.trophy {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7)  !important; /* White color with slight transparency */
+}
+
