@@ -6,5 +6,11 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['react-router-dom']
+  },
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom']
+    }
   }
+
 })
