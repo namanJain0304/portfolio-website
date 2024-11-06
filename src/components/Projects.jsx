@@ -87,8 +87,8 @@ function Projects() {
         { icon: <FaReact size={24} />, name: "React" },
         { icon: <FaBootstrap size={24} />, name: "Bootstrap" },
       ],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://naman-jain-five.vercel.app/",
+      githubLink: "https://github.com/namanJain0304/portfolio-website",
     },
     {
       title: "Flight Reservation System",
