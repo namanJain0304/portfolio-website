@@ -26,8 +26,8 @@ function ContactMe() {
 
   
       emailjs
-        .sendForm(process.env.SERVICE, process.env.TEMPLATE, form.current, {
-          publicKey: process.env.PUBLIC_KEY,
+        .sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, form.current, {
+          publicKey: process.env.REACT_APP_PUBLIC_KEY,
         })
         .then(
           () => {
