@@ -87,7 +87,7 @@ function Projects() {
         { icon: <FaReact size={24} />, name: "React" },
         { icon: <FaBootstrap size={24} />, name: "Bootstrap" },
       ],
-      liveLink: "https://naman-jain0304.vercel.app/contact",
+      liveLink: "https://naman-jain0304.vercel.app",
       githubLink: "https://github.com/namanJain0304/portfolio-website",
     },
     {
