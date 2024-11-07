@@ -26,8 +26,8 @@ function ContactMe() {
 
   
       emailjs
-        .sendForm('service_xs7coma', 'template_yslb5gb', form.current, {
-          publicKey: 'oMOdblY7WcvpDZTNR',
+        .sendForm(process.env.SERVICE, process.env.TEMPLATE, form.current, {
+          publicKey: process.env.PUBLIC_KEY,
         })
         .then(
           () => {
