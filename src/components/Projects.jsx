@@ -25,7 +25,7 @@ function Projects() {
   const projectList = [
     {
       title: "Eyeframes.io",
-      date: "Otober 2024",
+      date: "October 2024",
       description:
         "EyeFrames.io is a platform for buying and selling gently used eyeframes, making eyewear more affordable and sustainable. Users can list frames, browse options, and connect with sellers directly. Future updates will include a feature to compare used prices with the original cost, helping users see their savings.",
       image: "eyeframes.png",
