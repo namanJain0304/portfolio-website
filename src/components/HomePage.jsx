@@ -6,9 +6,7 @@ import Footer from "./Footer";
 import Navbar1 from "./Navbar1";
 
 function HomePage() {
-  // Function to download the resume
   const handleDownloadResume = () => {
-    // Replace 'resume.pdf' with the path where the resume PDF is located in your project.
     window.open("resume.pdf", "_blank");
   };
 
